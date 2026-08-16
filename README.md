@@ -97,30 +97,3 @@ $$S_n = 2 \left(\frac{n-1}{2}\right)^2 + 3\left(\frac{n-1}{2}\right) + 1$$
 $$S_n = \frac{n^2 - 2n + 1}{2} + \frac{3n - 3}{2} + \frac{2}{2} = \frac{n^2 + n}{2} = \frac{n(n+1)}{2} \quad \blacksquare$$
 
 </details>
-
----
-
-## 💻 Code Implementations
-
-### Python
-
-```python
-def mukherjee_sum(n: int) -> int:
-    """Calculates the sum of first n natural numbers using The Mukherjee Identity."""
-    if n <= 0:
-        raise ValueError("n must be a positive integer.")
-
-    if n % 2 == 0:
-        half = n // 2
-        sub_sum = (half * (half + 1)) // 2
-        return 4 * sub_sum - half
-    else:
-        a = (n - 1) // 2
-        sub_sum = (a * (a + 1)) // 2
-        return 4 * sub_sum + a + 1
-
-
-# Test cases
-if __name__ == "__main__":
-    print(f"Sum of 1..100 : {mukherjee_sum(100)}")  # Output: 5050
-    print(f"Sum of 1..99  : {mukherjee_sum(99)}")  # Output: 4950
