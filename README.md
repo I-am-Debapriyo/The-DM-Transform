@@ -16,7 +16,7 @@
 
 </div>
 
-## 💡 Executive Summary
+##  Executive Summary
 
 The classical summation formula discovered by Carl Friedrich Gauss calculates the sum of the first $n$ natural numbers as:
 
@@ -26,7 +26,7 @@ $$S_n = \frac{n(n+1)}{2}$$
 
 ---
 
-## ⚡ The Formulas
+##  The Formulas
 
 ### 1. Even Parity ($n$ is even)
 
