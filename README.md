@@ -50,7 +50,7 @@ $$S_n = 4 \left( \sum_{k=1}^{a} k \right) + a + 1$$
 
 ---
 
-## 🔍 Step-by-Step Examples
+##  Step-by-Step Examples
 
 | $n$ | Parity | Half-Length Index | Core Sub-Sum $\sum k$ | Formula Calculation | Final Result |
 | :---: | :---: | :---: | :---: | :---: | :---: |
