@@ -1,7 +1,7 @@
 # The-DM-Transform
 <div align="center">
 
-# 🧮 The Mukherjee Identity
+# The Mukherjee Identity
 ### *Parity-Folded Piecewise Summation*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
